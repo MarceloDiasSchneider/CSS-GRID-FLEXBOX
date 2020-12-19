@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navBar{
+    background-color: rgba(0, 255, 255, 0.5);
+    height: 10vh;    
+}
+
+.main1{
+    display: grid;
+    height: 90vh;
+    background-color: rgba(192, 192, 192, 0.363);
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 50% 50%;
+}
+
+
+.box1{
+    background-color: rgba(255, 0, 0, 0.5);
+}
+.box2{
+    background-color: rgba(255, 255, 0, 0.5)
+}
+.box3{
+    background-color:rgba(0, 0, 255, 0.5);
+    grid-column: 1/3;
+}
+
+.main2{
+    display: grid;
+    height: 100vh;
+    background: rgb(0,0,255);
+    background: linear-gradient(90deg, rgba(0,0,255,1) 0%, rgba(255,0,0,0.49764150943396224) 0%, rgba(0,0,0,1) 100%);
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 50%;
+}
+.box4{
+    background-color: rgba(255, 0, 0, 0.2);
+    grid-column: 1/2;
+}
+.box5{
+    background-color: rgba(255, 255, 0, 0.3);
+    grid-column: 1/2;
+}
+.box6{
+    background-color:rgba(0, 0, 255, 0.3);
+    grid-row: 1/3;
+    grid-column: 2/3;
+}
+
+.main3{
+    display: grid;
+    height: 100vh;
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(131,45,253,1) 100%);
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: 
+        "box7 box8 box9"
+        "box10 box8 box9"
+        "box10 box11 box11";
+}
+
+.visibility1{
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.visibility2{
+    background-color: rgba(0, 0, 0, 0.2);
+}
